@@ -6,7 +6,7 @@ using Piranha.Manager;
 
 namespace PiranhaTest.Controllers
 {
-    [Area("manager")]
+    [Area("Manager")]
     public class PropertiesController : ManagerAreaControllerBase
     {
         public PropertiesController(IApi api) : base(api)
